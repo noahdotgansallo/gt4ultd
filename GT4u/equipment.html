@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+
+    <title>Equipment | GT4U</title>
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="pure.css">
+
+
+
+
+
+<link rel="stylesheet" href="pure-css-menu/css/layouts/side-menu.css">
+<link rel="stylesheet" type="text/css" href="pure-css-menu/js/ui.js">
+
+
+
+
+    
+
+    
+
+</head>
+<body>
+
+
+
+
+
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="">GT4U</a>
+
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li class="pure-menu-selected"><a href="equipment.html">Equipment</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="services.html">Services</a></li>
+
+                <li class=" menu-item-divided"><a href="contactus.html">Contact</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>Equipment</h1>
+            <h2>We place high value on our customers and we guarantee that our equipment is the best available to us</h2>
+        </div>
+
+        <div class="content">
+            <h2 class="content-subhead">Our Equipment</h2>
+            <p>
+            </p>
+
+            <div class="pure-g-r">
+                <div class="pure-u-1-4 div-space-equipment-img">
+                    <img class="equipment-display" src="ex286.jpg">
+                    <h3>EX286</h3>
+                    <p>
+                        The EX285 is top in its class from hernis
+                    </p>
+                </div>
+                <div class="pure-u-1-4 div-space-equipment-img">
+                    <img class="equipment-display" src="ex285t.jpg" alt="Train">
+                    <h3>EX285T</h3>
+                    <p>
+                        The EX285T is a versatile and durable thermal camera
+                    </p>
+                </div>
+                <div class="pure-u-1-4  div-space-equipment-img">
+                </div>
+                <div class="pure-u-1-4 div-space-equipment-img">
+                </div>
+            </div>
+
+            <h2 class="content-subhead">Other References</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="pure-css-menu/js/ui.js"></script>
+<script>
+YUI().use('node-base', 'node-event-delegate', function (Y) {
+    // This just makes sure that the href="#" attached to the <a> elements
+    // don't scroll you back up the page.
+    Y.one('body').delegate('click', function (e) {
+        e.preventDefault();
+    }, 'a[href="#"]');
+});
+</script>
+
+
+</body>
+</html>

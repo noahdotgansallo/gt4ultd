@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+
+    <title>Services | GT4U</title>
+
+    
+
+
+
+
+<link rel="stylesheet" href="pure.css">
+<link rel="stylesheet" type="text/css" href="grids.css">
+
+
+
+
+<link rel="stylesheet" href="pure-css-menu/css/layouts/side-menu.css">
+<link rel="stylesheet" type="text/css" href="pure-css-menu/js/ui.js">
+
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+    
+
+    
+
+</head>
+<body>
+
+
+
+
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="">GT4U</a>
+
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li class="pure-menu-selected"><a href="services.html">Services</a></li>
+
+                <li class=" menu-item-divided"><a href="contactus.html">Contact</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>Services</h1>
+            <h2>We offer a wide range of maintenance services to the oil and gas extraction industries</h2>
+        </div>
+
+        <div class="content">
+        <br><br>
+
+            <div class="pure-g-r menu-jaun">
+                <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="header-grid">Service Name</p>
+                    </div><hr>
+                </div>
+               <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="header-grid">Description</p>
+                    </div><hr>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">CCTV Installation</p>
+                    </div>
+                </div>
+               <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">GT4ULTD easily installs high powerd cameras and monitors make the job of monitoring your rig or property easier. We mainly use HERNIS COOPER equipment.</p>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">Rope Access</p>
+                    </div>
+                </div>
+               <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">GTU4ULTD easily scales and accesses difficult nooks and cranies using our Rope Access technology and techniques. Rope Access allows us to <i class="red-text">access</i> hard to reach places.</p>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">EPM (Enterprise Project Management) Training</p>
+                    </div>
+                </div>
+               <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">GT4ULTD trains your employees in the use of EPM so that your business can be organized in a modern style.</p>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">ITIL (Information Technology Infrastructure Library) Training</p>
+                    </div>
+                </div>
+               <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">GT4ULTD trains your employees in the use and implementation of ITIL which allows you to always stay in close contact with your customers.</p>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">VSAT (Very-Small-Aperture Terminal) Implementation</p>
+                    </div>
+                </div>
+               <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">GT4ULTD can install VSAT allowing you connect to the internet through a narrowband or broadband connection.</p>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">HVAC (Heating, Ventilation, Air-Conditioning) Environmental Controls</p>
+                    </div>
+                </div>
+               <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">GT4ULTD can install ventilation and other basic environmental controls</p>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">EQMS</p>
+                    </div>
+                </div>
+               <div class="pure-u-1-2">
+                    <div class="spacer-grid">
+                        <p class="content-grid">www.wavetech.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="pure-css/menu/js/ui.js"></script>
+<script>
+YUI().use('node-base', 'node-event-delegate', function (Y) {
+    // This just makes sure that the href="#" attached to the <a> elements
+    // don't scroll you back up the page.
+    Y.one('body').delegate('click', function (e) {
+        e.preventDefault();
+    }, 'a[href="#"]');
+});
+</script>
+
+
+</body>
+</html>

@@ -15,7 +15,6 @@ About
                 With an ambitious mission, we strive to serve our customers to the best of our ability. 
             </p>
             <br>
-            <br>
             
 
             <div class="pure-g-r">

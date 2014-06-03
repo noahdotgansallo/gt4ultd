@@ -9,11 +9,10 @@
         </div>
 
         <div class="content">
-            <!--<h2 class="content-subhead">Our History</h2>
+            <h2 class="content-subhead">Our History</h2>
             <p>
-                With an ambitious mission and  
+                With an ambitious mission, we strive to serve our customers to the best of our ability. 
             </p>
-            -->
             <br>
             <br>
             <br>

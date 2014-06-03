@@ -6,7 +6,7 @@ Welcome
 @section('content')
 <div class="header">
             <h1>Welcome</h1>
-            <h2>From Founder and CEO <a class="homepage-welcome-founder" href="#"><i>Sylavanus O. Gansallo</i></a></h2>
+            <h2>From Founder and CEO <a class="homepage-welcome-founder" href="#"><i>Sylvanus O. Gansallo</i></a></h2>
         </div>
 
         <div class="content">

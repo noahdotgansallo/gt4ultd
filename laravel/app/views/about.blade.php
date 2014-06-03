@@ -16,8 +16,6 @@ About
             </p>
             <br>
             <br>
-            <br>
-            <br>
             
 
             <div class="pure-g-r">

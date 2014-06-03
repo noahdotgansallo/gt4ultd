@@ -1,6 +1,7 @@
 @extends('template')
 
 @section('title')
+About
 @stop
 @section('content')
 <div class="header">

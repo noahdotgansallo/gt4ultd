@@ -64,7 +64,7 @@ $url = $_SERVER['REQUEST_URI'];
 
                 <li <?php echo (strpos($url, 'contact') !== false) ? $selected : ''; echo "$divided"; ?>><a href="{{url('/contact')}}" title="Coming Soon..."><span class="ion-android-inbox"></span> Contact</a></li>
                 <li <?php echo (strpos($url, 'help') !== false) ? $selected : '' ?>><a href="{{url('/help')}}"><span class="ion-help-buoy" title="Coming Soon..."></span> Help</a></li>
-                <li <?php echo (strpos($url, 'support') !== false) ? $selected : '' ?>><a href="{{url('/support')}}" title="Coming Soon...">Support</a></li>
+                <li <?php echo (strpos($url, 'support') !== false) ? $selected : '' ?>><a href="{{url('/support')}}" title="Coming Soon..."><span class="ion-clipboard"></span> Support</a></li>
             </ul>
         </div>
     </div>

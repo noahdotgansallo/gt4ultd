@@ -220,7 +220,23 @@ small screens.
         }
     .contactus-textarea{
         resize:none;
-        height: 200px;
+        height: 163px;
+        width: 100% !important;
+    }
+    .contactus-send{
+        width: 100%;
+    }
+    .override-width{
+        width: 90% !important;
+    }
+    .float-left{
+        float: left !important;
+    }
+    .width-title{
+        width: 40%;
+    }
+    .width-content{
+        width: 60%;
     }
     .menu-jaun{
         background-color: #888888;

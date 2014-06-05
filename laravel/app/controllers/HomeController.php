@@ -47,5 +47,9 @@ class HomeController extends BaseController {
 	{
 		return View::make('services');
 	}
+	public function contact()
+	{
+		return View::make('contact');
+	}
 
 }

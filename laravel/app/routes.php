@@ -20,6 +20,7 @@ Route::get('/locations', 'HomeController@locations');
 Route::get('back', 'HomeController@back');
 Route::get('/services', 'HomeController@services');
 Route::get('/contact', 'HomeController@contact');
+Route::post('/send', 'HomeController@handleContact');
 App::missing(function($exception)
 	{
 	    return Response::view('missing', array(), 404);

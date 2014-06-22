@@ -51,5 +51,20 @@ class HomeController extends BaseController {
 	{
 		return View::make('contact');
 	}
+	public function handleContact()
+	{
+		$subject = Input::get('subject');
+		$topic = Input::get('topic');
+		$email = Input::get('email');
+		$content = Input::get('content');
+		$data = array('email' => $email, 'subject' => $subject, 'topic' => $topic, 'content'=>$content);
+		Mail::send('emails.contact', $data, function($message)
+		{
+			$message->from(Input::get('email'));
+			$message->to('info@gt4ultd.com')->subject(Input::get('subject'));
+		});
+
+		return Redirect::to('/');
+	}
 
 }

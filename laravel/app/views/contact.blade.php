@@ -24,7 +24,7 @@ Contact Us
                 <textarea class="pure-input-1-2 contactus-textarea" name="content" placeholder="Your Message" required></textarea>
             </fieldset>
 
-            <button type="submit" class="pure-button pure-input-1-1 pure-button-primary contactus-send">Send</button>
+            <!--<button type="submit" class="pure-button pure-input-1-1 pure-button-primary contactus-send">Send</button>-->
         </div>
     </form>
 </div>

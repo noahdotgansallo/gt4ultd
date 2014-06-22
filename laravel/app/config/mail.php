@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'password' => 'BballrocksSoccderDude123987',
+	'password' => 'BballrocksSoccerDude123987',
 
 	/*
 	|--------------------------------------------------------------------------

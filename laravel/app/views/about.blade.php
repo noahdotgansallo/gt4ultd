@@ -17,19 +17,10 @@ About
             <br>
             
 
-            <div class="pure-g-r">
-                <div class="pure-u-1-4">
-                    <img src="http://farm3.staticflickr.com/2875/9069037713_1752f5daeb.jpg" alt="Peyto Lake">
-                </div>
-                <div class="pure-u-1-4">
-                    <img src="http://farm3.staticflickr.com/2813/9069585985_80da8db54f.jpg" alt="Train">
-                </div>
-                <div class="pure-u-1-4">
-                    <img src="http://farm6.staticflickr.com/5456/9121446012_c1640e42d0.jpg" alt="T-Shirt Store">
-                </div>
-                <div class="pure-u-1-4">
-                    <img src="http://farm8.staticflickr.com/7357/9086701425_fda3024927.jpg" alt="Mountain">
-                </div>
+            <div class="pdf">
+                <object style="height:100%;width:100%"  data="{{asset('download/profile.pdf')}}#toolbar=1&navpanes=0&scrollbar=1&page=1&view=FitH" type="application/pdf">
+                    
+                </object>
             </div>
         </div>
 @stop

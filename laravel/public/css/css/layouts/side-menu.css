@@ -299,3 +299,7 @@ Hides the menu at `767px`, but modify this based on your app's needs.
 .width-wider{
     width: 40%;
 }
+.pdf{
+    height: 70%;
+    width: 110%;
+}

@@ -468,10 +468,10 @@
 	"buffers":
 	[
 		{
-			"file": "laravel/app/views/equipment.blade.php",
+			"file": "laravel/app/views/about.blade.php",
 			"settings":
 			{
-				"buffer_size": 928,
+				"buffer_size": 754,
 				"line_ending": "Windows"
 			}
 		},
@@ -479,7 +479,7 @@
 			"file": "laravel/public/css/css/layouts/side-menu.css",
 			"settings":
 			{
-				"buffer_size": 6107,
+				"buffer_size": 6148,
 				"line_ending": "Windows"
 			}
 		}
@@ -523,6 +523,8 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/gt4ultd/laravel/public/css/css/layouts/side-menu.css",
+		"/C/wamp/www/gt4ultd/laravel/app/views/equipment.blade.php",
 		"/C/wamp/www/booksmart1/app/views/Artist/detail.blade.php",
 		"/C/wamp/www/booksmart1/public/css/advances.css",
 		"/C/wamp/www/booksmart1/app/views/Advance/Manager/detail.blade.php",
@@ -648,9 +650,7 @@
 		"/C/wamp/www/booksmart1/app/controllers/PromoterController.php",
 		"/C/wamp/www/booksmart1/public/css/bootstrap.min.css",
 		"/C/wamp/www/booksmart1/public/assets/underscore/underscore-min.js",
-		"/C/wamp/www/booksmart1/app/views/Promoter/Venue/index.blade.php",
-		"/C/wamp/www/booksmart1/public/css/bootstrap-datetimepicker.min.css",
-		"/C/wamp/www/booksmart1/public/css/style.css"
+		"/C/wamp/www/booksmart1/app/views/Promoter/Venue/index.blade.php"
 	],
 	"find":
 	{
@@ -826,26 +826,23 @@
 			[
 				{
 					"buffer": 0,
-					"file": "laravel/app/views/equipment.blade.php",
+					"file": "laravel/app/views/about.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 928,
+						"buffer_size": 754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								906,
-								906
+								733,
+								733
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -863,28 +860,25 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6107,
+						"buffer_size": 6148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6102,
-								6102
+								6128,
+								6128
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 3433.0,
+						"translation.x": -0.0,
+						"translation.y": 3610.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,

@@ -303,3 +303,18 @@ Hides the menu at `767px`, but modify this based on your app's needs.
     height: 70%;
     width: 110%;
 }
+.tab-pane{
+    height: 100px;
+    color: #0078E7;
+    text-decoration: none;
+    border-radius: 4px;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.text-bottom{
+    position: relative;
+    bottom: -60px;
+    padding-left: 10px;
+    color: #0078E7;
+}
+
